@@ -9,11 +9,11 @@ module.exports = function(environment) {
 
 
         firebase: {
-            apiKey: 'AIzaSyBVF-CK-WnCu248UnRToyxKt5AohfRMrBU',
-            authDomain: 'donation-test-31be0.firebaseapp.com',
-            databaseURL: 'https://donation-test-31be0.firebaseio.com',
-            storageBucket: 'donation-test-31be0.appspot.com',
-            messagingSenderId: '812076105856'
+            apiKey: '',
+            authDomain: '',
+            databaseURL: '',
+            storageBucket: '',
+            messagingSenderId: ''
         },
 
 

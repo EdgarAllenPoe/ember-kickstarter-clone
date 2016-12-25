@@ -1,0 +1,91 @@
+<div class=" jumbotron">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-2 .side-logo">
+                <span class="sBrand">SIM</span>
+                <span class="fBrand">Paraguay</span>
+            </div>
+            <div class="col-md-8">
+                <h1 class="project-name">Lorem ipsum dolor sit amet </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quidem aperiam vero sunt dicta, delectus odio, consectetur dolorum incidunt </p>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-8 ">
+                <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/7Y0R543Mads"></iframe>
+</div>
+            </div>
+            <div class="col-md-4 info-sidebar">
+                <hr>
+
+                <h1>{{gua-currency donationTotal}}</h1>
+
+                <p>de la meta de {{gua-currency 15000000}}</p>
+                <h1>{{backerTotal}}</h1>
+                <p>patrocinadores</p>
+                <h1>{{daycountdown "March 21, 2017"}}</h1>
+                <p>días más</p>
+                <button type="button" class="btn btn-success last"> Patrocinar este proyecto
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h4>Acerca de este proyecto</h4>
+            <div class="text-center"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+                <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quidem aperiam vero sunt dicta, delectus odio, consectetur dolorum incidunt </p>
+                <img src="http://placehold.it/880x480" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="text-center">
+                <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+            </div>
+            <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quidem aperiam vero sunt dicta, delectus odio, consectetur dolorum incidunt </p>
+            <img src="http://placehold.it/880x480" class="img-fluid" alt="Responsive image">
+            <div class="text-center">
+                <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+            </div>
+            <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quidem aperiam vero sunt dicta, delectus odio, consectetur dolorum incidunt </p>
+            <img src="http://placehold.it/880x480" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-md-4">
+            <h4>Contribuir a este proyecto</h4>
+            <div class="alert alert-info" role="alert">
+                <form {{action "createDonation" on="submit" }}>
+                    <div class="form-group">
+                        <label>Name: {{name}}</label>
+                        {{input value=name class="form-control"}}
+                        <br>
+                        <label>Mobile: {{mobile}}</label>
+                        {{input value=mobile class="form-control"}}
+                        <br>
+                        <label>Email: {{email}}</label>
+                        {{input value=email class="form-control"}}
+                        <br>
+                        <label>Amount: {{gua-currency amount}}</label>
+                        {{input  value=amount class="form-control"}}
+                    </div>
+                    <input type="submit" value=" Patrocinar este proyecto" class="btn btn-success">
+                </form>
+            </div>
+            <div class="alert alert-info" role="alert">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="alert alert-info" role="alert">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="alert alert-info" role="alert">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+    </div>
+</div>
+{{outlet}}
