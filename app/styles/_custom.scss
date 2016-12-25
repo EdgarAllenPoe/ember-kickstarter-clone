@@ -1,6 +1,8 @@
 
+
+
 .last{
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 h4{
@@ -58,9 +60,14 @@ h4{
 }
 
 .info-sidebar h1 {
-  margin:0em;
+  margin-top:-.3em;
+  margin-bottom:-.3em;
   font-weight: 500;
   font-size: 2.3em;
+}
+
+h1.first{
+  margin-top: 2em;
 }
 
 .info-sidebar .test {

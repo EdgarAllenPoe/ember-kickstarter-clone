@@ -18,7 +18,7 @@ export default Ember.Controller.extend({
             this.set('mobile', '');
             this.set('email', '');
             this.set('tdate', '');
-            this.set('amount', 0);
+            this.set('amount', '');
 
         },
 

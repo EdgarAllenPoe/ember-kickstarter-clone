@@ -1,0 +1,25 @@
+<form {{action "createDonation" on="submit" }}>
+    <div class="form-group">
+        <label><span class="asteriskField">*</span> Nombre: {{name}}</label>
+        {{input value=name class="form-control" placeholder="Nombre y Apellido" required=true}}
+        <br>
+        <label><span class="asteriskField">*</span>Tel: {{mobile}}</label>
+        {{input value=mobile class="form-control" required=true}}
+        <br>
+        <label>Email: {{email}}</label>
+        {{input value=email class="form-control" }}
+        <br>
+        <label><span class="asteriskField">*</span>Compromiso: {{gua-currency amount}}</label>
+        <div class="input-group">
+            <div class="input-group-addon">
+                Gs.
+            </div>
+            {{input value=amount class="form-control" required=true}}
+        </div>
+    </div>
+     <button class="btn btn-success" name="submit" type="submit">
+        Patrocinar este proyecto
+       </button>
+   {{!--  <input type="submit" value=" Patrocinar este proyecto" class="btn btn-success"> 
+    <input type="submit" value=" Patrocinar este proyecto" class="btn btn-success" data-toggle="modal" data-target="#myModal">  --}}
+</form>
