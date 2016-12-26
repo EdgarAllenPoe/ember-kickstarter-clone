@@ -12,6 +12,7 @@ You will need the following things properly installed on your computer.
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Firebase](http://yoember.com/#setup-a-server-on-firebase) This is an excellent tutorial by [Zoltan Debre](https://www.linkedin.com/in/zoltandebre)
 
 ## Installation
 
