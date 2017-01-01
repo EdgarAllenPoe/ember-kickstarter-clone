@@ -20,6 +20,17 @@ You will need the following things properly installed on your computer.
 * `cd donation`
 * `npm install`
 * `bower install`
+* `ember install ember-cli-sass`
+    - change name of file `app/sytles/app.css` to `app/sytles/app.scss`
+* `ember install ember-cli-bootstrap-sassy`
+    - add the following line to your app.scss file
+        + `@import "bootstrap";`
+* `ember install ember-cli-font-awesome-sass`
+    - add the following line to your app.scss file
+        + `@import "ember-cli-font-awesome-sass";`
+* change name of `configure/environment(copy).js` to `configure/environment.js`
+* follow instructions [here](http://yoember.com/#setup-a-server-on-firebase) to set up a server on firebase
+* follow instructions [here](http://yoember.com/#deploy-your-app-using-firebase-hosting-service) to deploy this app to firebase
 
 ## Running / Development
 
