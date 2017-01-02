@@ -3,7 +3,8 @@ import Ember from 'ember';
 export default Ember.Component.extend({
 
     didRender() {
-$('#myModal').modal();
+        this._super(...arguments);
+        $('#myModal').modal();
         // if (Cookies.get('modal_dismiss') == null) {
 
         //     console.log('here');
