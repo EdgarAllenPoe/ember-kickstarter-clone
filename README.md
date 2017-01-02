@@ -1,4 +1,4 @@
-# donation
+# ember-kickstarter-clone
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
@@ -17,7 +17,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd donation`
+* `cd ember-kickstarter-clone`
 * `npm install`
 * `bower install`
 * `ember install ember-cli-sass`
@@ -31,6 +31,7 @@ You will need the following things properly installed on your computer.
 * change name of `configure/environment(copy).js` to `configure/environment.js`
 * follow instructions [here](http://yoember.com/#setup-a-server-on-firebase) to set up a server on firebase
 * follow instructions [here](http://yoember.com/#deploy-your-app-using-firebase-hosting-service) to deploy this app to firebase
+* if you want to render the modal popup only once per day per user, uncomment the lines in `app/component/modal-one-time.js`
 
 ## Running / Development
 
