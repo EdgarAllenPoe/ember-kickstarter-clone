@@ -4,7 +4,8 @@ export default Ember.Component.extend({
 
     didRender() {
         this._super(...arguments);
-        $('#myModal').modal();
+        $('#myModal').modal('hide');
+
         // if (Cookies.get('modal_dismiss') == null) {
 
         //     console.log('here');
